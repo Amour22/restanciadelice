@@ -4,11 +4,12 @@
 /**************ALL RIGHT RESERVED**********************/
 
 /**************IMPORTATION DES POLICES***************/
-@font-face{
+/*@font-face{
 	font-family:'poppin';
 	src:url('../assets/font/poppins-Regular.ttf');
 	unicode-range: U+0025-00FF;
-}
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*******END****IMPORTATION DES POLICES******END*****/
 
 /****************INITIALISATION*******************/
@@ -20,7 +21,7 @@
 *{
 	margin:0;
 	padding:0;
-	font-family:'poppin',sans-serif;
+	font-family:'Poppins',sans-serif;
 	font-display: optional;
 	box-sizing:border-box;
 	scroll-behavior:smooth;
