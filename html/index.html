@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--Author: Dahou Amour *** github:http://github.com/Amour22***all Reserved copyright 2022 -->
+<html lang="fr">
+	<head>
+		<!--meta-->
+		<meta charset="utf-8">
+		<meta name="title" content="Restancia Delice">
+		<meta name="description" content="Pas assez de temps pour faire un repas? pas de soucis &aeacute; se faire nous vous livrons votre plat pr&eacute;f&eacute;r&eacute; en quelques minutes.">
+		<meta name="author" content="amour Dahou">
+		<meta name="keywords" content="restaurant,food,fastfood,cuisine,kitchen,cook,cooking,plat,mets,cuisine occidentale,cuisine,africaine,cuisine asiatique">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--title-->
+		<title>Restancia Delice</title>
+		<!--favicon du site-->
+		<link rel="shortcut icon" href="../assets/images/fav.png" type="image/x-icon">
+		<!--liens externes-->
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+	</head>
+	<body>
+		<!--header-->
+		<header>
+			<!--logo-->
+			<a href="#" class="logo"><span>R</span>estancia<span>D</span>elice.</a>
+			<!--hamburger menu-->
+			<div class="menuToggle"></div>
+			<!--menu-->
+			<nav>
+				<ul class="navigation">
+					<li><a href="#banner">Accueil</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#about">A-propos</a></li>
+					<li><a href="#avis">Avis</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</nav>
+			<!--panier-->
+			<div id="cartBox">
+				<a href="#commandes" ></a>
+			</div>
+		</header>
+		<!--banniere-->
+		<section class="banner" id="banner">
+			<div class="content">
+				<h2>Manger chez RestanciaDelice ** c&apos;est Savourer les meilleures délices du monde</h2>
+				<p>Lorem ipsum dolor sit amet , consectur adisipur elit sed to esuotar tempor incidum ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud.</p>
+				<a href="#menu" class="btn">Voir le menu</a>
+			</div>
+		</section>
+		<!--section a-propos-->
+		<section class="about" id="about">
+			<div class="row">
+				<div class="col">
+					<q>Les grandes oeuvres naissent souvent au coin d'une rue ou dans la porte tournante d'un restaurant</q> 
+					<p>RestanciaDelice en est un exemple++</p>
+					<h2 class="titleText">Qui <span>S</span>ommes nous?</h2>
+					<p>Lorem ipsum dolor sit, ams distinctio culpa dicta similique, debitis nihil esse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id delectus eius sit error?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt possimus distinctio culpa dicta similique<br><br> debitis nihil esse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id delectus eius sit error?</p>
+				</div>
+				<div class="col">
+					<div class="imgBx">
+						<img src="../assets/images/28.jpg" alt="about banner">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--section menu-->
+		<section class="menu" id="menu">
+			<div class="title">
+				<h2 class="titleText"><span>M</span>enu Du Jour</h2>
+				<p>Nous vous proposons des plats variés, nos cuisiniers sont de grands spécialistes de divers horizons. Que vous soyez Vegan ou non vous trouverez un plat qui vous convient...</p>
+			</div>
+			<div class="content">
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/home-img-3.png" alt="piza">
+					</div>
+					<div class="text">
+						<h3>Piza</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/dish-1.png" alt="hamburger">
+					</div>
+					<div class="text">
+						<h3>Hamburger</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/home-img-2.png" alt="poulet Romantique">
+					</div>
+					<div class="text">
+						<h3>Poulet Romantique</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/dish-6.png" alt="poulet paillé">
+					</div>
+					<div class="text">
+						<h3>Poulet Paillé</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/men1.webp" alt="riz asiatique">
+					</div>
+					<div class="text">
+						<h3>Riz Asiatique</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/home-img-1.png" alt="spaguetit">
+					</div>
+					<div class="text">
+						<h3>Spaguetti polarisé</h3>
+					</div>
+				</div>
+				<div class="title">
+					<a href="#" class="btn">Voir Plus</a>
+				</div>
+			</div>
+		</section>
+		<!--section commande-->
+		<section class="commande" id="commandes">
+			<div class="title">
+				<h2 class="titleText"><span>C</span>ommander Maintenant...</h2>
+				<p>Ne remettez pas à demain ce que vous pouvez decouvrir aujourd'hui</p>
+			</div>
+			<form method="POST" action="#" class="commandeForm">
+				<h3>feuille de Commande</h3>
+				<div class="inputBox">
+					<input type="text" name="commande" placeholder="Que voulez-vous commander? Faites une liste détaillé (noms du plat + quantité)" required>
+				</div>
+				<div class="inputBox superBox1">
+					<div class="inputBox">
+						<input type="text" name="nom" placeholder="Nom" required>
+					</div>
+					<div class="inputBox">
+						<input type="Email" name="prenoms" placeholder="Prenoms" required>
+					</div>
+				</div>
+				<div class="inputBox">
+					<input type="Email" name="email" placeholder="Email" required>
+				</div>
+				<div class="inputBox">
+					<input type="tel" name="telephone" placeholder="Telephone" required>
+				</div>
+				<div class="inputBox">
+					<input type="text" name="adresse" placeholder="Adresse de livraison" required>
+				</div>
+				<div class="inputBox superBox3">
+					<input type="submit" value="commander">
+				</div>
+			</form>
+		</section>
+		<!--section avis-->
+		<section class="avis" id="avis">
+			<div class="title">
+				<h2 class="titleText"><span>A</span>vis de nos Clients</h2>
+				<p>Ils sont nombreux a partager leurs expériences, faites comme eux, dites ce que vous pensez de nous...</p>
+			</div>
+			<div class="content">
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/cl1.jpeg" alt="client">
+					</div>
+					<div class="text">
+						<p>Lorem ipsum dolor sique, debitis nihil esse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id  liberol la necessitatibus doloribus reprehenderit id delectus eius</p>
+						<h3>Client</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/cl2.jpeg" alt="client">
+					</div>
+					<div class="text">
+						<p>ams distinctio culpa dicta similisse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id delebero quisquam nulatibus doloribus reprehenderit id delectus eius</p>
+						<h3>Client</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/cl3.jpeg" alt="client">
+					</div>
+					<div class="text">
+						<p>ams distinctio culpa dicta similisse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id delebero quisquam nulatibus doloribus reprehenderit id delectus eius</p>
+						<h3>Client</h3>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="../assets/images/cl4.jpeg" alt="client">
+					</div>
+					<div class="text">
+						<p>ams distinctio culpa dicta similisse vel molestias libero quisquam nulla necessitatibus doloribus reprehenderit id delebero quisquam nulatibus doloribus reprehenderit id delectus eius</p>
+						<h3>Client</h3>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!--section contact-->
+		<section class="contact" id="contact">
+			<div class="title">
+				<h2 class="titleText"><span>C</span>ontactez Nous</h2>
+				<p>Nous répondons le plus vite possible, vous êtes notre priorité. Ecrivez nous maintenant.</p>
+			</div>
+			<!--conteneur du formulaire-->
+			<div class="formBox">
+				<!--formulaire-->
+				<form method="POST" action="#" class="contactForm">
+					<h3>Envoyez nous un Message</h3>
+					<div class="inputBox">
+						<input type="text" name="nom" placeholder="Nom" required>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="prenoms" placeholder="Prenoms" required>
+					</div>
+					<div class="inputBox">
+						<input type="Email" name="email" placeholder="Email" required>
+					</div>
+					<div class="inputBox">
+						<textarea name="message" placeholder="Ecrivez ici..." required></textarea>
+					</div>
+					<div class="inputBox">
+						<input type="submit" value="envoyer">
+					</div>
+				</form>
+				<!--social icon-->
+				<div class="social">
+					<div class="social-group1">
+						<div class="socialBox">
+							<div class="imgBx">
+							 	<a href="https://facebook.com" class="fb"></a>
+							</div>
+							<a href="https://facebook.com">facebook</a>
+						</div>
+						<div class="socialBox">
+							<div class="imgBx">
+							 	<a href="https://instagram.com" class="inst"></a>
+							</div>
+							<a href="https://instagram.com">instagram</a>
+						</div>
+						<div class="socialBox">
+							<div class="imgBx">
+							 	<a href="https://twiter.com" class="tw"></a>
+							</div>
+							<a href="https://twiter.com">twiter</a>
+						</div>
+					</div>
+					<div class="social-group2">
+						<div class="socialBox">
+							<div class="imgBx">
+						 		<a href="tel:00000000" class="tel"></a>
+							</div>
+							<a href="tel:00000000">+229 xx xx xx xx</a>
+						</div>
+						<div class="socialBox">
+							<div class="imgBx">
+							 	<a href="mailto:restancia@delice.com" class="mail"></a>
+							</div>
+							<a href="mailto:restancia@delice.com">Restancia@delice.com</a>
+						</div>
+						<div class="socialBox">
+							<div class="imgBx">
+						 		<a href="#" class="local"></a>
+							</div>
+							<a href="#">Rue 45 Cotonou,Benin</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--footer-->
+		<footer class="copyrightText">
+			<p>&copy;COPYRIGHT <span class="copyYear">2022</span> Tout droit réservés - <a href="http://github.com/Amour22">Dereck22</a></p>
+		</footer>
+		<!-- lien externe vers script javascript-->
+		<script src="../js/index.js" type="text/javascript"></script>
+	</body>
+</html>
